@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600&display=swap");
 
 :root {
-	--bgColor: #282a36;
+	--bgColor: rgb(11, 15, 25);
 	--heartColor: #ec1313;
 }
 
@@ -29,6 +29,10 @@ body {
 	flex-direction: column;
 }
 
+p.smaller {
+	font-size: 18px;
+}
+
 p {
 	color: #fafafa;
 	text-align: center;
@@ -37,7 +41,7 @@ p {
 	padding: 0 12px;
 }
 
-main {
+.container-heart {
 	margin: 0 auto;
 	height: 400px;
 	display: flex;
